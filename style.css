@@ -1,0 +1,156 @@
+@media screen and (max-width: 750px){
+    .section-juego-ahorcado{
+        width: 90%;
+    }
+    
+    .div-palabra{
+        height: 12vh;
+        justify-content: space-around;
+    }
+    .intentos-finjuego{
+        font-size: 18px;
+        margin: 0;
+    }
+    .parrafo-palabra{
+        height: 65%;
+    }
+    .div-pista-botones{
+        height: 15vh;
+    }
+    .botones-juego{
+        height: 80%;
+    }
+    .btn2{
+        width: 32%;
+    }
+    .div-abecedario{
+        height: 25vh;
+    }
+    .letras-abecedario{
+        padding: 0;
+        grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+    }
+}
+@media screen and (max-width: 760px){
+    .btn2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 640px){
+    
+    header{
+        height: 50px;
+    }
+    #logo-alura{
+        height: 40px;
+    }
+    .main{
+        height: 90vh;
+    }
+    .btn-iniciar{
+        height: 12vh;
+        max-height: 90px;
+        width: 55vw;
+        font-size: 20px;
+    }
+    .btn-inicio-agregar{
+        height: 10vh;
+        max-height: 80px;
+        width: 50vw;
+        font-size: 16px;
+    }
+    .div-botones-agregar-cancelar{
+        min-height: 50px;
+    }
+    .descripcion-agregar-palabra{
+        font-size: 13px;
+    }
+    .section-juego-ahorcado{
+        width: 100%;
+    }
+    .div-palabra{
+        height: 10vh;
+        justify-content: space-around;
+    }
+    .div-pista-botones{
+        height: 12vh;
+    }
+    .btn2{
+        max-height: 70px;
+
+    }
+    .letras-abecedario{
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+        grid-template-rows: auto;
+    }
+    #btn-letra{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 470px){
+    
+    .input-agregar-palabra, .input-agregar-pista{
+        font-size: 28px;
+    }
+    .descripcion-agregar-palabra{
+        font-size: 13px;
+    }
+    .div-palabra{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .intentos-finjuego{
+        font-size: 15px;
+    }
+    .parrafo-palabra{
+        font-size: 35px;
+        height: 50%;
+    }
+    .parrafo-palabra span{
+        margin: 0px 5px ;
+        height: 100%;
+    }
+    .div-pista-botones{
+        height: 30vh;
+        flex-direction: column;
+    }
+    .span-pista{
+        height: 10%;
+        font-size: 12px;
+    }
+    .botones-juego{
+        flex-direction: column;
+        height: 85%;
+    }
+    .btn2{
+        height: 31%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    header{
+        height: 44px;
+    }
+    #logo-alura{
+        height: 34px;
+    }
+    .div-info-agregar-cancelar{
+        height: 25vh;
+    }
+    .descripcion-agregar-palabra{
+        font-size: 12px;
+    }
+    .div-abecedario{
+        grid-gap: 3% 3%;
+    }
+    .parrafo-palabra span{
+        width: 18px;
+    }
+    .parrafo-palabra{
+        letter-spacing: 7px;
+    }
+
+}
