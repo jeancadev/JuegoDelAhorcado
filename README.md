@@ -11,4 +11,4 @@ Segundo desafio del curso de ONE Next Education de Orale y Alura Latam creado co
 * [https://jeancadev.github.io/JuegoDelAhorcado/](https://jeancadev.github.io/JuegoDelAhorcado/)
 
 ## Instalación
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o los arhivos con el codigo
+Este proyecto no necesita de instalación. Simplemente abre la carpeta o los arhivos del codigo fuente
