@@ -115,7 +115,6 @@ function iniciarJuegoAhorcado(){
     divAhorcado.style.display='flex';
 }
 
-
 //Generar palabra al azar
 function palabraAzar(){
     imagenAhorcado.src='img/Ahorcado6.png';
