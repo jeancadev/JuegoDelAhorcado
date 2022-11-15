@@ -32,11 +32,13 @@
         grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
     }
 }
+
 @media screen and (max-width: 760px){
     .btn2{
         font-size: 20px;
     }
 }
+
 @media screen and (max-width: 640px){
     
     header{
@@ -88,6 +90,7 @@
         font-size: 25px;
     }
 }
+
 @media screen and (max-width: 470px){
     
     .input-agregar-palabra, .input-agregar-pista{
